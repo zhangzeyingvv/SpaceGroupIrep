@@ -1489,7 +1489,7 @@ BCHighSymKpt=Block[{u,hskpt,i,idx,D2hxyz,C2vx,C2vy,C2vz,C2vazb,C2vzab,C2vbza,D4h
   hskpt["TrigPrim(b)"]=verb;
 
   D6h=JonesSymbol[[2,All,1]];
-  D3h={"E","C3+","C3-","C21pp","C22pp","c23pp","\[Sigma]h","S3+","S3-","\[Sigma]d1","\[Sigma]d2","\[Sigma]d3"};
+  D3h={"E","C3+","C3-","C21pp","C22pp","C23pp","\[Sigma]h","S3+","S3-","\[Sigma]d1","\[Sigma]d2","\[Sigma]d3"};
   C6v={"E","C6+","C6-","C3+","C3-","C2","\[Sigma]v1","\[Sigma]v2","\[Sigma]v3","\[Sigma]d1","\[Sigma]d2","\[Sigma]d3"};
   hskpt["HexaPrim"]={ 
     {"\[CapitalGamma]","",{0,0,0},"D6h",D6h},
@@ -1528,7 +1528,7 @@ BCHighSymKpt=Block[{u,hskpt,i,idx,D2hxyz,C2vx,C2vy,C2vz,C2vazb,C2vzab,C2vbza,D4h
   hskpt["CubiFace"]={ 
     {"\[CapitalGamma]","",{0,0,0},"Oh",Oh},
     {"X","",{1/2,0,1/2},"D4h",D4hy},
-    {"L","",{1/2,1/2,1/2},"D3d",{"E","C31+","C31-","C2b","C2e","C2f","I","S6-","S6+","\[Sigma]db","\[Sigma]de","\[Sigma]df"}},
+    {"L","",{1/2,1/2,1/2},"D3d",{"E","C31+","C31-","C2b","C2e","C2f","I","S61-","S61+","\[Sigma]db","\[Sigma]de","\[Sigma]df"}},
     {"W","",{1/2,1/4,3/4},"D2d",{"E","C2x","C2d","C2f","\[Sigma]y","\[Sigma]z","S4x+","S4x-"}},
     {"\[CapitalDelta]","\[CapitalGamma]X",{u,0,u},"C4v",C4vy},
     {"\[CapitalLambda]","\[CapitalGamma]L",{u,u,u},"C3v",{"E","C31+","C31-","\[Sigma]db","\[Sigma]de","\[Sigma]df"}},
